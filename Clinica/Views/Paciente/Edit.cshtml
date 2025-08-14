@@ -1,0 +1,49 @@
+﻿@model Clinica.Models.Paciente
+
+@{
+    ViewData["Title"] = "Editar Paciente";
+}
+
+<div class="container mt-4">
+    <h2>@ViewData["Title"]</h2>
+    <hr />
+
+    <form asp-action="Edit" class="mt-3">
+        <input type="hidden" asp-for="PacienteId" />
+
+
+        <div class="mb-3">
+            <label asp-for="Nome" class="form-label"></label>
+            <input asp-for="Nome" class="form-control" />
+            <span asp-validation-for="Nome" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Cpf" class="form-label"></label>
+            <input asp-for="Cpf" class="form-control" />
+            <span asp-validation-for="Cpf" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Idade" class="form-label"></label>
+            <input asp-for="Idade" class="form-control" />
+            <span asp-validation-for="Idade" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Telefone" class="form-label"></label>
+            <input asp-for="Telefone" class="form-control" />
+            <span asp-validation-for="Telefone" class="text-danger"></span>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Atualizar</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

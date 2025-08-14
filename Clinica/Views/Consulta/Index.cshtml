@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Clinica.Models.Consulta>
+
+@{
+    ViewData["Title"] = "Consultas";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">@ViewData["Title"]</h1>
+
+    <a asp-action="Create" class="btn btn-primary mb-3">Nova Consulta</a>
+
+    <div class="table-responsive">
+        <table class="table table-striped table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Procedimento</th>
+                    <th>Data e Hora</th>
+                    <th>Paciente</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Procedimento</td>
+                        <td>@item.DatadaConsulta.ToString("dd/MM/yyyy HH:mm")</td>
+                        <td>@item.Paciente?.Nome</td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.ConsultaId" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Details" asp-route-id="@item.ConsultaId" class="btn btn-info btn-sm">Detalhes</a>
+                            <a asp-action="Delete" asp-route-id="@item.ConsultaId" class="btn btn-danger btn-sm">Excluir</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

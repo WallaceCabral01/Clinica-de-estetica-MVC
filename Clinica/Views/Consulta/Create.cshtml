@@ -1,0 +1,29 @@
+﻿@model Clinica.Models.Consulta
+@{
+    ViewData["Title"] = "Nova Consulta";
+}
+
+<h1 class="mb-4">Nova Consulta</h1>
+
+<form asp-action="Create" class="card p-4 shadow-sm">
+    <div class="mb-3">
+        <label asp-for="Procedimento" class="form-label"></label>
+        <input asp-for="Procedimento" class="form-control" />
+        <span asp-validation-for="Procedimento" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="DatadaConsulta" class="form-label"></label>
+        <input asp-for="DatadaConsulta" type="datetime-local" class="form-control" />
+        <span asp-validation-for="DatadaConsulta" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="PacienteId" class="form-label">Paciente</label>
+        <select asp-for="PacienteId" asp-items="ViewBag.Pacientes" class="form-select"></select>
+        <span asp-validation-for="PacienteId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Salvar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>
