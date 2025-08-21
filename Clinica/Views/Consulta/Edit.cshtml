@@ -6,12 +6,12 @@
 <h1 class="mb-4">Editar Consulta</h1>
 
 <form asp-action="Edit" class="card p-4 shadow-sm">
-    <input type="hidden" asp-for="PacienteId" />
+    <input type="hidden" asp-for="Id" />
 
     <div class="mb-3">
-        <label asp-for="Procedimento" class="form-label"></label>
-        <input asp-for="Procedimento" class="form-control" />
-        <span asp-validation-for="Procedimento" class="text-danger"></span>
+        <label asp-for="Tratamento" class="form-label"></label>
+        <input asp-for="Tratamento" class="form-control" />
+        <span asp-validation-for="Tratamento" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
@@ -21,9 +21,9 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="PacienteId" class="form-label">Paciente</label>
-        <select asp-for="PacienteId" asp-items="ViewBag.Pacientes" class="form-select"></select>
-        <span asp-validation-for="PacienteId" class="text-danger"></span>
+        <label asp-for="Id" class="form-label">Paciente</label>
+        <select asp-for="Id" asp-items="ViewBag.Pacientes" class="form-select"></select>
+        <span asp-validation-for="Id" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Salvar Alterações</button>

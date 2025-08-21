@@ -7,9 +7,9 @@
 
 <form asp-action="Create" class="card p-4 shadow-sm">
     <div class="mb-3">
-        <label asp-for="Procedimento" class="form-label"></label>
-        <input asp-for="Procedimento" class="form-control" />
-        <span asp-validation-for="Procedimento" class="text-danger"></span>
+        <label asp-for="Tratamento" class="form-label"></label>
+        <input asp-for="Tratamento" class="form-control" />
+        <span asp-validation-for="Tratamento" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
@@ -19,9 +19,9 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="PacienteId" class="form-label">Paciente</label>
-        <select asp-for="PacienteId" asp-items="ViewBag.Pacientes" class="form-select"></select>
-        <span asp-validation-for="PacienteId" class="text-danger"></span>
+        <label asp-for="Id" class="form-label">Paciente</label>
+        <select asp-for="Id" asp-items="ViewBag.Pacientes" class="form-select"></select>
+        <span asp-validation-for="Id" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>

@@ -4,7 +4,7 @@ namespace Clinica.Models
 {
     public class Paciente
     {
-        public int PacienteId { get; set; }
+        public int Id { get; set; }
 
         [Required(ErrorMessage = "O nome é obrigatório.")]
         [StringLength(100, ErrorMessage = "O nome pode ter no máximo 100 caracteres.")]
@@ -23,7 +23,8 @@ namespace Clinica.Models
         [Required(ErrorMessage = "O número do telefone é obrigatório.")]
         public string Telefone { get; set; }
 
-        public ICollection<Consulta> Consultas { get; set; }
+        // Relacionamento muitos-para-muitos via model auxiliar
+        public ICollection<PacienteConsulta> PacienteConsultas { get; set; } = new List<PacienteConsulta>();
 
     }
 }

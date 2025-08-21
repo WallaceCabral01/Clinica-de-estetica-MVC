@@ -1,98 +1,76 @@
-﻿
-using Clinica.Models;
+﻿using Clinica.Models;
+using Clinica.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 namespace Clinica.Controllers
 {
     public class PacienteController : Controller
     {
-        private readonly IPacienteRepository _pacienteRepo;
+        private readonly IPacienteRepository _pacienteRepository;
 
-        public PacienteController(IPacienteRepository pacienteRepo)
+        public PacienteController(IPacienteRepository pacienteRepository)
         {
-            _pacienteRepo = pacienteRepo;
+            _pacienteRepository = pacienteRepository;
         }
 
-        // GET: Paciente
         public async Task<IActionResult> Index()
         {
-            var pacientes = await _pacienteRepo.GetAllAsync();
+            var pacientes = await _pacienteRepository.GetAllAsync();
             return View(pacientes);
         }
 
-        // GET: Paciente/Details/5
-        public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null) return NotFound();
-
-            var paciente = await _pacienteRepo.GetByIdAsync(id.Value);
-            if (paciente == null) return NotFound();
-
-            return View(paciente);
-        }
-
-        // GET: Paciente/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Paciente/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Paciente paciente)
         {
-            if (!ModelState.IsValid) return View(paciente);
-
-            await _pacienteRepo.AddAsync(paciente);
-            return RedirectToAction(nameof(Index));
-        }
-
-        // GET: Paciente/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null) return NotFound();
-
-            var paciente = await _pacienteRepo.GetByIdAsync(id.Value);
-            if (paciente == null) return NotFound();
-
+            if (ModelState.IsValid)
+            {
+                await _pacienteRepository.AddAsync(paciente);
+                return RedirectToAction(nameof(Index));
+            }
             return View(paciente);
         }
 
-        // POST: Paciente/Edit/5
+        public async Task<IActionResult> Edit(int id)
+        {
+            var paciente = await _pacienteRepository.GetByIdAsync(id);
+            if (paciente == null) return NotFound();
+            return View(paciente);
+        }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Paciente paciente)
+        public async Task<IActionResult> Edit(Paciente paciente)
         {
-            if (id != paciente.PacienteId) return NotFound();
-
-            if (!ModelState.IsValid) return View(paciente);
-
-            await _pacienteRepo.UpdateAsync(paciente);
-            return RedirectToAction(nameof(Index));
-        }
-
-        // GET: Paciente/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null) return NotFound();
-
-            var paciente = await _pacienteRepo.GetByIdAsync(id.Value);
-            if (paciente == null) return NotFound();
-
+            if (ModelState.IsValid)
+            {
+                await _pacienteRepository.UpdateAsync(paciente);
+                return RedirectToAction(nameof(Index));
+            }
             return View(paciente);
         }
 
-        // POST: Paciente/Delete
+        public async Task<IActionResult> Delete(int id)
+        {
+            var paciente = await _pacienteRepository.GetByIdAsync(id);
+            if (paciente == null) return NotFound();
+            return View(paciente);
+        }
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var paciente = await _pacienteRepo.GetByIdAsync(id);
-            if (paciente == null) return NotFound();
-
-            await _pacienteRepo.DeleteAsync(paciente);
+            var paciente = await _pacienteRepository.GetByIdAsync(id);
+            if (paciente != null)
+            {
+                await _pacienteRepository.DeleteAsync(paciente);
+            }
             return RedirectToAction(nameof(Index));
         }
     }

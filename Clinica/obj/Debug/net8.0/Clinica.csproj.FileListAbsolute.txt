@@ -166,3 +166,4 @@ C:\Users\wl_va\Desktop\ClinicaMedica\Clinica\Clinica\obj\Debug\net8.0\refint\Cli
 C:\Users\wl_va\Desktop\ClinicaMedica\Clinica\Clinica\obj\Debug\net8.0\Clinica.pdb
 C:\Users\wl_va\Desktop\ClinicaMedica\Clinica\Clinica\obj\Debug\net8.0\Clinica.genruntimeconfig.cache
 C:\Users\wl_va\Desktop\ClinicaMedica\Clinica\Clinica\obj\Debug\net8.0\ref\Clinica.dll
+C:\Users\wl_va\Desktop\ClinicaMedica\Clinica\Clinica\obj\Debug\net8.0\Clinica.sourcelink.json

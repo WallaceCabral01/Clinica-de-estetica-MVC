@@ -1,7 +1,5 @@
 ﻿using Clinica.Models;
 using Microsoft.EntityFrameworkCore;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Clinica.Repositories
 {
@@ -16,44 +14,64 @@ namespace Clinica.Repositories
 
         public async Task<IEnumerable<Consulta>> GetAllAsync()
         {
-            // Inclui o Paciente na consulta para evitar lazy loading nulo
             return await _context.Consultas
-                .Include(c => c.Paciente)
+                .Include(c => c.PacienteConsultas)
+                .ThenInclude(pc => pc.Paciente)
                 .ToListAsync();
         }
 
-        public async Task<Consulta> GetByIdAsync(int id)
+        public async Task<Consulta?> GetByIdAsync(int id)
         {
             return await _context.Consultas
-                .Include(c => c.Paciente)
-                .FirstOrDefaultAsync(c => c.ConsultaId == id);
+                .Include(c => c.PacienteConsultas)
+                .ThenInclude(pc => pc.Paciente)
+                .FirstOrDefaultAsync(c => c.Id == id);
         }
 
-        public async Task AddAsync(Consulta consulta)
+        public async Task AddAsync(Consulta consulta, List<int> pacientesIds)
         {
-            await _context.Consultas.AddAsync(consulta);
+            _context.Add(consulta);
+            await _context.SaveChangesAsync();
+
+            foreach (var pacienteId in pacientesIds)
+            {
+                _context.PacienteConsultas.Add(new PacienteConsulta
+                {
+                    PacienteId = pacienteId,
+                    ConsultaId = consulta.Id
+                });
+            }
+
             await _context.SaveChangesAsync();
         }
 
-        public async Task UpdateAsync(Consulta consulta)
+        public async Task UpdateAsync(Consulta consulta, List<int> pacientesIds)
         {
-            _context.Consultas.Update(consulta);
+            _context.Update(consulta);
+            await _context.SaveChangesAsync();
+
+            var antigos = _context.PacienteConsultas.Where(pc => pc.ConsultaId == consulta.Id);
+            _context.PacienteConsultas.RemoveRange(antigos);
+
+            foreach (var pacienteId in pacientesIds)
+            {
+                _context.PacienteConsultas.Add(new PacienteConsulta
+                {
+                    PacienteId = pacienteId,
+                    ConsultaId = consulta.Id
+                });
+            }
+
             await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(Consulta consulta)
         {
-            _context.Consultas.Remove(consulta);
-            await _context.SaveChangesAsync();
-        }
+            var relacionamentos = _context.PacienteConsultas.Where(pc => pc.ConsultaId == consulta.Id);
+            _context.PacienteConsultas.RemoveRange(relacionamentos);
 
-        // Se quiser um método específico para buscar consultas por paciente
-        public async Task<IEnumerable<Consulta>> GetByPacienteIdAsync(int pacienteId)
-        {
-            return await _context.Consultas
-                .Include(c => c.Paciente)
-                .Where(c => c.PacienteId == pacienteId)
-                .ToListAsync();
+            _context.Remove(consulta);
+            await _context.SaveChangesAsync();
         }
     }
 }

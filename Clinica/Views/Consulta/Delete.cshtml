@@ -8,15 +8,15 @@
 <div class="card p-4 shadow-sm">
     <dl class="row">
         <dt class="col-sm-3">Tratamento</dt>
-        <dd class="col-sm-9">@Model.Procedimento</dd>
+        <dd class="col-sm-9">@Model.Tratamento</dd>
 
         <dt class="col-sm-3">Data e Hora</dt>
         <dd class="col-sm-9">@Model.DatadaConsulta.ToString("dd/MM/yyyy HH:mm")</dd>
 
         <dt class="col-sm-3">Paciente</dt>
-        <dd class="col-sm-9">@Model.Paciente?.Nome</dd>
+        <dd class="col-sm-9">@Model.PacienteConsultas.Select(pc => pc.Paciente.Nome))
     </dl>
 
-    <a asp-action="Edit" asp-route-id="@Model.PacienteId" class="btn btn-warning">Editar</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
     <a asp-action="Index" class="btn btn-secondary">Voltar</a>
 </div>

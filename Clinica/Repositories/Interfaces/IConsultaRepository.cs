@@ -1,11 +1,13 @@
 ﻿using Clinica.Models;
 
-public interface IConsultaRepository
+namespace Clinica.Repositories
 {
-    Task<IEnumerable<Consulta>> GetAllAsync();
-    Task<Consulta> GetByIdAsync(int id);
-    Task AddAsync(Consulta consulta);
-    Task UpdateAsync(Consulta consulta);
-    Task DeleteAsync(Consulta consulta);
-    Task<IEnumerable<Consulta>> GetByPacienteIdAsync(int pacienteId);
+    public interface IConsultaRepository
+    {
+        Task<IEnumerable<Consulta>> GetAllAsync();
+        Task<Consulta?> GetByIdAsync(int id);
+        Task AddAsync(Consulta consulta, List<int> pacientesIds);
+        Task UpdateAsync(Consulta consulta, List<int> pacientesIds);
+        Task DeleteAsync(Consulta consulta);
+    }
 }
