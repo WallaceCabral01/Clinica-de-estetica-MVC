@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\migrations\\20250821025954_teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\migrations\\20250821025954_teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\repositories\\interfaces\\consultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\repositories\\interfaces\\consultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\paciente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\paciente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,28 +39,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ConsultaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
+              "RelativeDocumentMoniker": "Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
+              "RelativeToolTip": "Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T01:24:51.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Consulta\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T01:30:09.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Paciente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Paciente\\Delete.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T01:31:52.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Delete.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Consulta\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T01:40:40.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Edit.cshtml",
               "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Edit.cshtml",
               "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Edit.cshtml",
               "RelativeToolTip": "Clinica\\Views\\Consulta\\Edit.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAWwA0AAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T02:57:30.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T01:41:38.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20250821025954_teste.cs",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Migrations\\20250821025954_teste.cs",
-              "RelativeDocumentMoniker": "Clinica\\Migrations\\20250821025954_teste.cs",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Migrations\\20250821025954_teste.cs",
-              "RelativeToolTip": "Clinica\\Migrations\\20250821025954_teste.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T03:00:00.892Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Create.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Create.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Create.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Consulta\\Create.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T01:24:01.884Z"
             }
           ]
         }

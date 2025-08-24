@@ -17,6 +17,9 @@
         <dd class="col-sm-9">@Model.PacienteConsultas.Select(pc => pc.Paciente.Nome))
     </dl>
 
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
+    <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
+        <button type="submit" class="btn btn-danger">Excluir</button>
+    </form>
     <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+
 </div>

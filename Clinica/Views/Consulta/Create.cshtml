@@ -19,9 +19,9 @@
     </div>
 
     <div class="mb-3">
-        <label asp-for="Id" class="form-label">Paciente</label>
-        <select asp-for="Id" asp-items="ViewBag.Pacientes" class="form-select"></select>
-        <span asp-validation-for="Id" class="text-danger"></span>
+        <label class="form-label">Paciente</label>
+        <select name="pacientesIds" asp-items="ViewBag.Pacientes" class="form-select" multiple>
+        </select>
     </div>
 
     <button type="submit" class="btn btn-success">Salvar</button>
