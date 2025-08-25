@@ -1,22 +1,45 @@
-html {
-  font-size: 14px;
-}
-
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+/* Fonte padrão */
 body {
-  margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px; /* diminui o tamanho base */
+    color: #333;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    color: #222;
+}
+
+/* Ajusta cada nível de título */
+h1 {
+    font-size: 1.8rem;
+}
+/* antes era ~2.5rem */
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+h4 {
+    font-size: 1.1rem;
+}
+
+h5, h6 {
+    font-size: 1rem;
+}
+
+/* Botões e navbar */
+.navbar, .btn {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem; /* menor nos botões */
+    font-weight: 500;
+}
+.img-custom {
+    max-width: 300px; /* controla o tamanho máximo da imagem */
+    height: auto; /* mantém a proporção */
 }

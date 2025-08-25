@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Clinica.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-dark border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">Estetica&Saúde</a>
+                <a class="navbar-brand text-light" asp-area="" asp-controller="Home" asp-action="Index">Estetica&Saúde<i class="mx-1 bi bi-bluesky"></i></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,13 +22,13 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home<i class="mx-2 bi bi-house-fill"></i></a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Home" asp-action="Index">Home<i class="mx-2 bi bi-house-heart"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Paciente" asp-action="Index">Pacientes</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Paciente" asp-action="Index">Pacientes<i class=" mx-2 bi bi-activity"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" asp-area="" asp-controller="Consulta" asp-action="Index">Consultas</a>
+                            <a class="nav-link text-light" asp-area="" asp-controller="Consulta" asp-action="Index">Consultas<i class=" mx-2 bi bi-calendar-heart"></i></a>
                         </li>
                     </ul>
                 </div>

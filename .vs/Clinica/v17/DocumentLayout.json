@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T00:37:01.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Clinica\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T00:38:16.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

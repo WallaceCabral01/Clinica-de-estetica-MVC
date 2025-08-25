@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\img\\logoHome.jpeg",
+      "PackagePath": "staticwebassets\\img\\logoHome.jpeg"
+    },
+    {
       "Id": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

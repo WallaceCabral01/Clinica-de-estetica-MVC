@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Gcg1qjQ0r2MSpUfrO1tUqMwF2OKPIoLGaI8akFtVA2g=",
+  "Hash": "/J5YoFHoORgXNS3chq+lLeCMJvZPVxKTI3HkV3PzmzI=",
   "Source": "Clinica",
   "BasePath": "_content/Clinica",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\img\\logoHome.jpeg",
+      "SourceId": "Clinica",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\",
+      "BasePath": "_content/Clinica",
+      "RelativePath": "img/logoHome.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\logoHome.jpeg"
     },
     {
       "Identity": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\js\\site.js",

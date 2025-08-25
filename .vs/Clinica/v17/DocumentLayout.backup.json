@@ -3,28 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\repositories\\interfaces\\consultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\repositories\\interfaces\\consultarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\paciente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\paciente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\paciente\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|c:\\users\\wl_va\\desktop\\clinicamedica\\clinica\\clinica\\views\\consulta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{300E04F7-42E5-4EE6-B61D-816DFACFAAB3}|Clinica\\Clinica.csproj|solutionrelative:clinica\\views\\consulta\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConsultaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
-              "RelativeDocumentMoniker": "Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
-              "RelativeToolTip": "Clinica\\Repositories\\Interfaces\\ConsultaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T01:24:51.904Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T22:40:41.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Index.cshtml",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\Consulta\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABsAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Paciente\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Paciente\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T01:30:09.187Z",
+              "WhenOpened": "2025-08-24T23:17:29.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Paciente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Paciente\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-24T23:25:40.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\Paciente\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Paciente\\Delete.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\Paciente\\Delete.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T01:31:52.718Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Delete.cshtml",
               "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Delete.cshtml",
               "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Delete.cshtml",
               "RelativeToolTip": "Clinica\\Views\\Consulta\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T01:40:40.581Z"
+              "WhenOpened": "2025-08-24T23:29:51.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Edit.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\Consulta\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
+              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Index.cshtml",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Index.cshtml",
+              "RelativeToolTip": "Clinica\\Views\\Consulta\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T01:41:38.586Z"
+              "WhenOpened": "2025-08-24T23:33:13.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Create.cshtml",
-              "RelativeDocumentMoniker": "Clinica\\Views\\Consulta\\Create.cshtml",
-              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\Views\\Consulta\\Create.cshtml",
-              "RelativeToolTip": "Clinica\\Views\\Consulta\\Create.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-24T01:24:01.884Z"
+              "DocumentIndex": 0,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Clinica\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\wl_va\\Desktop\\ClinicaMedica\\Clinica\\Clinica\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Clinica\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-08-25T00:08:42.557Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -18,8 +18,10 @@
     </dl>
 
     <form asp-action="Delete" asp-route-id="@Model.Id" method="post" class="d-inline">
-        <button type="submit" class="btn btn-danger">Excluir</button>
+        <button type="submit" class="btn btn-danger">Excluir<i class="mx-1 bi bi-trash"></i></button>
+        <a asp-action="Index" class="btn btn-secondary">Cancelar<i class="mx-1 bi bi-x-circle"></i></a>
     </form>
-    <a asp-action="Index" class="btn btn-secondary">Voltar</a>
+    
+    
 
 </div>
